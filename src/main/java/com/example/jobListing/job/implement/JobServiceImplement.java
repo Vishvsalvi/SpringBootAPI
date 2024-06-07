@@ -5,13 +5,11 @@ import com.example.jobListing.job.JobRepository;
 import com.example.jobListing.job.JobService;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 @Service
 public class JobServiceImplement implements JobService {
-//    private List<Job> jobs = new ArrayList<>();
+
     JobRepository jobRepository;
 
     public JobServiceImplement(JobRepository jobRepository) {
